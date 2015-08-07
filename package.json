@@ -1,0 +1,17 @@
+{
+  "name": "ympc-kueui",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "ympc-kueui": "./bin/cli.js"
+  },
+  "main": "server.js",
+  "license": "MIT",
+  "dependencies": {
+    "bole": "^2.0.0",
+    "express": "^4.13.3",
+    "kue": "^0.9.4",
+    "kue-ui": "^0.1.0",
+    "rucola": "^1.0.0"
+  }
+}

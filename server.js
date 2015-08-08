@@ -32,7 +32,7 @@ function server (config) {
     updateInterval: parseInt(config.get('updateinterval'), 10)
   });
 
-  app.use('/api', kue.app);
+  app.use('/api/', kue.app);
   app.use('/ui', ui.app);
 
   function start () {
